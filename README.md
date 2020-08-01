@@ -12,7 +12,7 @@ A few options to configure-
 <br>*Arm- switch you arm your quad with, could be a logical switch
 <br>*Fltmode- switch used to select flight modes
 <br>*Rescue- if you have a GPS, and rescue mode configured, can also tie to your beeper.
-<br>*automatically adjusts for a full 4s or 6s Lipo
+<br>*automatically adjusts for a 4s or 6s Lipo when a fully charged battery is attached to the quad.
 
 Configuration Screen
 <br><img src=one.png>
