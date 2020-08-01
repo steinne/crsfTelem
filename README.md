@@ -6,6 +6,7 @@ Drop in your widget folder, discover crossfire senors, and load the widget.
 based on a widget by dk7xe  												
 <br>https://github.com/dk7xe/horus_telemetry_widget/blob/master/README.md 
 <br>
+
 A few options to configure- 
 <br>*Transparency- by default there is a blue background, check box to have a clear background
 <br>*Arm- switch you arm your quad with, could be a logical switch
