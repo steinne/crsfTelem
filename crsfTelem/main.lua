@@ -423,16 +423,8 @@ local function rssiWidget(xCoord, yCoord, cellHeight, name)
 	lcd.drawText(xTxt1, yTxt2, "db", modeSize.sml + modeAlign.le)
 	
 	-- Icon RSSI -----
-	if name == "rssi1" then
-		percent = ((math.log(myRssi-28, 10)-1)/(math.log(72, 10)-1))*100
-		if myRssi >= 37 then rssiIndex = 11
-		elseif
-			myRssi > 99 then rssiIndex = 11
-		else
-			rssiIndex = math.floor(percent/10)+2
-		end
 		
-	    if myRssi < -110 then rssiIndex = 1
+	    if myRssi <-110 then rssiIndex = 1
 		elseif
 			myRssi <= -95 then rssiIndex = 2
 		elseif
@@ -466,8 +458,6 @@ local function rssiWidget(xCoord, yCoord, cellHeight, name)
 		local w, h = Bitmap.getSize(rssiImage)
 		xPic= xCoord + cellWide - w - 2; yPic= yCoord + 5
 		lcd.drawBitmap(rssiImage, xPic, yPic)
-	end
-	
 end
 
 
