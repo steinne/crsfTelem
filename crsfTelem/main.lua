@@ -9,7 +9,7 @@
 -- ###############################################################################
 
 -- Background transparency (1=true/0=false)
-local debug = 1
+local debug = 0
 
 -- Path to pictures on SD-Card
 local imagePath = "/WIDGETS/crsfTelem/images/"  
@@ -432,23 +432,23 @@ local function rssiWidget(xCoord, yCoord, cellHeight, name)
 			rssiIndex = math.floor(percent/10)+2
 		end
 		
-	if myRssi <-70 then rssiIndex = 1
+	    if myRssi < -110 then rssiIndex = 1
 		elseif
-			myRssi <= -100 then rssiIndex = 2
+			myRssi <= -95 then rssiIndex = 2
 		elseif
 			myRssi <= -90 then rssiIndex = 3
 		elseif
-			myRssi <= -85 then rssiIndex = 4
+			myRssi <= -88 then rssiIndex = 4
 		elseif
-			myRssi <= -80 then rssiIndex = 5
+			myRssi <= -84 then rssiIndex = 5
 		elseif
-			myRssi <= -75 then rssiIndex = 6
+			myRssi <= -82 then rssiIndex = 6
 		elseif
-			myRssi <= -68 then rssiIndex = 7
+			myRssi <= -75 then rssiIndex = 7
 		elseif
-			myRssi <= -58 then rssiIndex = 8
+			myRssi <= -70 then rssiIndex = 8
 		elseif
-			myRssi <= -48 then rssiIndex = 9
+			myRssi <= -58 then rssiIndex = 9
 		elseif
 			myRssi <= -34 then rssiIndex = 10
 		elseif
