@@ -1,11 +1,11 @@
 
 -- ###############################################################################
--- ## Script by steinne                                							##
--- ## V 1.0, 2020/07/31                                							## 
--- ##                                                  							##
--- ## For use with betaflight and CRSF Telemetry   								##
--- ## based on a widget by dk7xe  												##
--- ## https://github.com/dk7xe/horus_telemetry_widget/blob/master/README.md     ##
+-- ## Script by steinne                                						
+-- ## V 1.0, 2020/07/31                                							 
+-- ##                                                  						
+-- ## For use with betaflight and CRSF Telemetry   								
+-- ## based on a widget by dk7xe  												
+-- ## https://github.com/dk7xe/horus_telemetry_widget/blob/master/README.md     
 -- ###############################################################################
 
 -- Background transparency (1=true/0=false)
