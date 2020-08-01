@@ -1,5 +1,5 @@
 # crsfTelem
-FrSky Horus/Radiomaster T16s/Jumper T16  Betaflight Crossfire Telemetry widget
+FrSky Horus/Radiomaster TX16s/Jumper T16  Betaflight Crossfire Telemetry widget
 <br>Use with Crossfire module on your horus x10 , Radiomaster T16s or jumper T16 radio.
 Drop in your widget folder, discover crossfire senors, and load the widget.
 <br>
